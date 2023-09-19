@@ -1,16 +1,14 @@
-// 문제 : 아래와 같이 출력해주세요.
-// 문제 : 단을 * 1000까지 출력해주세요.
-// 조건 : 곱하는 순서를 거꾸로 해주세요.
+// 1부터 5까지의 합을 더한 결과를 출력해주세요.
 
 class Main {
     public static void main(String[] args) {
-        int dan = 8;
+        int i = 1;
+        int sum = 0;
 
-        int i = 1000;
-
-        while (i>=1){
-            System.out.println(dan + " * " + i + " = " + dan * i);
-            i--;
+        while(i<=5) {
+            sum += i;
+            i++;
         }
+        System.out.println(sum);
     }
 }
