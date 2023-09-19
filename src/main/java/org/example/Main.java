@@ -1,27 +1,29 @@
-// 문제 : 할인 대상인지 아닌지 출력해주세요.
-// 조건 : 나이가 19세 이하이거나 60세 이상이면 할인 대상입니다.
-// 조건 : 출력예시 처럼 출력되어야 합니다.
-// 조건 : `구현시작` 부분만 수정 할 수 있습니다.
-// 조건 : 4가지 이상의 방법으로 풀어야 합니다.
-// 조건 : 그 중 2가지 방법은 `&&, ||`없이 풀어야 합니다.
-
-import java.util.Scanner;
+// 문제 : 아래와 같이 출력해주세요.
 
 class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("나이를 입력하세요 >> ");
-        int age = sc.nextInt();
-        System.out.println("당신의 나이는 " + age + "살 입니다.");
-        if (19>=age || 60<=age) {
-            System.out.println("할인 대상입니다.");
-        } else {
-            System.out.println("할인 대상이 아닙니다.");
-        }
+        System.out.println("8 * 1 = 8");
+        System.out.println("8 * 2 = 16");
+        System.out.println("8 * 3 = 24");
+        System.out.println("8 * 4 = 32");
+        System.out.println("8 * 5 = 40");
+        System.out.println("8 * 6 = 48");
+        System.out.println("8 * 7 = 56");
+        System.out.println("8 * 8 = 64");
+        System.out.println("8 * 9 = 72");
 
 
-        // 구현시작
-
-        // 출력 => 할인대상입니다. 또는 할인 대상이 아닙니다.
+        // 출력
+    /*
+    8 * 1 = 8
+    8 * 2 = 16
+    8 * 3 = 24
+    8 * 4 = 32
+    8 * 5 = 40
+    8 * 6 = 48
+    8 * 7 = 56
+    8 * 8 = 64
+    8 * 9 = 72
+    */
     }
 }
